@@ -1,0 +1,538 @@
+{
+  "categories": [
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "subtitle": "Meals are served with a choice of 2 regular sides & drink. Premium sides are avail. for an add'l price.",
+      "items": [
+        {
+          "name": "Hamburger",
+          "description": "1/2 lb beef patty smoked",
+          "prices": {
+            "sandwich": 9.75,
+            "meal": 18.95
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Cheeseburger",
+          "description": "1/2 lb beef patty smoked",
+          "prices": {
+            "sandwich": 10.25,
+            "meal": 19.45
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Smoked Brisket",
+          "description": "smoked brisket w/ cheddar cheese, our house BBQ sauce & french fried onions on a deluxe bun",
+          "note": "This is sliced Brisket",
+          "prices": {
+            "sandwich": 11.75,
+            "meal": 19.95
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Brisket Burger",
+          "description": "ground brisket made into a patty on deluxe bun.",
+          "note": "add cheese $0.75",
+          "prices": {
+            "sandwich": 11.50,
+            "meal": 20.75
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Grilled Hot Dog",
+          "prices": {
+            "sandwich": 3.75,
+            "meal": 12.95
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Chili Cheese Dog",
+          "prices": {
+            "sandwich": 5.25,
+            "meal": 14.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Patty Melt",
+          "description": "smoked beef patty w/ gouda cheese & grilled onions",
+          "prices": {
+            "sandwich": 10.25,
+            "meal": 18.95
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Chicken Melt",
+          "description": "Grilled smoked chicken breast w/ Colby jack cheese on sourdough bread",
+          "prices": {
+            "sandwich": 8.75,
+            "meal": 17.95
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Grilled Cheese",
+          "description": "toasted sourdough bread w/ colby jack and cheddar cheese",
+          "prices": {
+            "sandwich": 7.50,
+            "meal": 16.65
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "BLT",
+          "description": "slices of bacon, tomato and lettuce",
+          "note": "add cheese $0.75",
+          "prices": {
+            "sandwich": 8.75,
+            "meal": 17.95
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Smoked Fried Bologna",
+          "description": "Thick bologna w/ swiss cheese grilled on sourdough bread",
+          "prices": {
+            "sandwich": 7.75,
+            "meal": 16.95
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "BBQ Pulled Pork",
+          "description": "smoked pork with our in house BBQ sauce on a deluxe bun",
+          "prices": {
+            "sandwich": 8.75,
+            "meal": 17.95
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Chicken Cluckers",
+          "description": "Fried chicken fritters",
+          "prices": {
+            "sandwich": 9.75,
+            "meal": 18.95
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Pimento Porker",
+          "description": "smoked pulled pork w/ our in house BBQ sauce & homemade pimento cheese on a deluxe bun",
+          "prices": {
+            "sandwich": 9.75,
+            "meal": 18.95
+          },
+          "isSmoked": false
+        }
+      ]
+    },
+    {
+      "id": "loaded-potatoes",
+      "name": "Loaded Potato",
+      "subtitle": "INCLUDES A REGULAR DRINK",
+      "items": [
+        {
+          "name": "Baked Potato",
+          "description": "served with butter and sour cream",
+          "prices": {
+            "single": 6.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Chili and Cheese",
+          "description": "house-made chili and shredded cheddar cheese",
+          "prices": {
+            "single": 8.75
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Baked Beans",
+          "description": "baked potato topped with our house made baked beans",
+          "prices": {
+            "single": 8.75
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Pulled Pork",
+          "description": "pulled pork and house made BBQ sauce",
+          "prices": {
+            "single": 12.50
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Brisket",
+          "description": "cheese, fried onions and house made BBQ sauce",
+          "prices": {
+            "single": 15.50
+          },
+          "isSmoked": true
+        }
+      ]
+    },
+    {
+      "id": "salads-chili",
+      "name": "Salads and Chili",
+      "subtitle": "Dressing: Ranch, Italian, Blue Cheese, Balsamic, Thousand Island, Honey Mustard, French",
+      "items": [
+        {
+          "name": "Chili",
+          "description": "housemade beef and bean chili",
+          "prices": {
+            "small": 4.75,
+            "large": 7.75
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Potato Soup",
+          "description": "seasonal soup",
+          "prices": {
+            "small": 4.75,
+            "large": 7.75
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Large Chili & Grilled Cheese",
+          "description": "house made chili with grilled cheddar & colby cheese on sourdough",
+          "note": "Includes Drink",
+          "prices": {
+            "single": 14.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Grilled Chicken Salad",
+          "description": "mixed lettuce w/ grilled smoked chicken, hard boiled egg, bacon, tomatoes, cucumbers, shredded jack & colby cheese & french fried onions",
+          "note": "Includes Drink",
+          "prices": {
+            "single": 12.29
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Garden Salad",
+          "description": "mixed lettuce with tomatoes, cucumbers, jack & colby cheese, french fried onions. Egg avail upon request",
+          "note": "Includes Drink",
+          "prices": {
+            "single": 9.25
+          },
+          "isSmoked": false
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "subtitle": "Fresh home-style accompaniments to complete your meal.",
+      "items": [
+        {
+          "name": "Home Fries",
+          "description": "seasoned wavy home fries.",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Add Chili & cheese to fries",
+          "prices": {
+            "single": 2.25
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Baked Beans",
+          "description": "smkd baked beans, pulled pork, BBQ sauce",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Coleslaw",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Potato Salad",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Side Salad",
+          "description": "mixed lettuce, shredded cheese & tomatoes",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Cucumber Salad",
+          "description": "seasonal. cucumbers, tomatoes & onions topped w/ a viniagrette",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Chili",
+          "description": "house-made chili",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Onion Rings",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Baked Potato",
+          "description": "counts as 2 sides",
+          "prices": {
+            "single": 3.50
+          },
+          "isSmoked": false
+        }
+      ]
+    },
+    {
+      "id": "premium-sides",
+      "name": "Premium Sides",
+      "subtitle": "Specialty country-fried favorites.",
+      "items": [
+        {
+          "name": "Fried Green Tomatoes",
+          "prices": {
+            "single": 4.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Fried Dill Pickles",
+          "prices": {
+            "single": 4.50
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Fried Cheese Wedges",
+          "prices": {
+            "single": 4.50
+          },
+          "isSmoked": false
+        }
+      ]
+    },
+    {
+      "id": "kids-meals",
+      "name": "Kids Meals",
+      "subtitle": "Meals served w/ a choice of 1 side & a sm. fountain drink. 12 & under only.",
+      "items": [
+        {
+          "name": "Hamburger",
+          "prices": {
+            "sandwich": 4.95,
+            "meal": 7.25
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Cheeseburger",
+          "prices": {
+            "sandwich": 5.50,
+            "meal": 7.75
+          },
+          "isSmoked": true
+        },
+        {
+          "name": "Grilled Hotdog",
+          "prices": {
+            "sandwich": 3.50,
+            "meal": 5.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Grilled Cheese",
+          "prices": {
+            "sandwich": 3.65,
+            "meal": 5.75
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Chicken Sandwich",
+          "prices": {
+            "sandwich": 4.75,
+            "meal": 7.25
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Bologna",
+          "prices": {
+            "sandwich": 3.65,
+            "meal": 6.25
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "PB&J",
+          "description": "Grape or Strawberry",
+          "prices": {
+            "sandwich": 3.65,
+            "meal": 5.75
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Chicken Cluckers",
+          "prices": {
+            "2 tenders": 4.25,
+            "meal": 7.25
+          },
+          "isSmoked": false
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "subtitle": "Refreshing beverages to wash down your meal.",
+      "items": [
+        {
+          "name": "Fountain Drinks",
+          "description": "coke products",
+          "prices": {
+            "small": 2.25,
+            "regular": 2.65
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Tea",
+          "description": "sweet or unsweet",
+          "prices": {
+            "small": 2.25,
+            "regular": 2.65
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Bottled Soda",
+          "prices": {
+            "single": 2.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Powerade or Body Armor",
+          "prices": {
+            "single": 3.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Bottled Water",
+          "prices": {
+            "single": 1.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Canned Drink",
+          "prices": {
+            "single": 2.99
+          },
+          "isSmoked": false
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "subtitle": "Sweet Southern treats to end your meal on a high note.",
+      "items": [
+        {
+          "name": "Banana Pudding",
+          "prices": {
+            "small": 3.99,
+            "large": 5.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Peach Cobbler",
+          "note": "add 1 scoop of ice cream for add'l $1.99",
+          "prices": {
+            "small": 3.99,
+            "large": 5.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Cheesecake",
+          "prices": {
+            "single": 3.99
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "Turtle Cheesecake",
+          "prices": {
+            "single": 4.99
+          },
+          "isSmoked": false
+        }
+      ]
+    },
+    {
+      "id": "catfish-friday",
+      "name": "Catfish Friday",
+      "subtitle": "ALL DAY ON FRIDAYS",
+      "items": [
+        {
+          "name": "1 Piece Cat Fish Dinner",
+          "description": "comes with 2 sides, hush puppies and a drink",
+          "prices": {
+            "single": 13.45
+          },
+          "isSmoked": false
+        },
+        {
+          "name": "2 piece Cat Fish dinner",
+          "description": "comes with 2 sides, hush puppies and a drink",
+          "prices": {
+            "single": 17.65
+          },
+          "isSmoked": false
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "*SMOKED MEATS WILL HAVE PINK COLORING; HOWEVER, THE MEAT IS COOKED WELL DONE",
+    "Additional sauces (BBQ sauce, tarter, ranch, italian etc.) will be an additional cost"
+  ]
+}

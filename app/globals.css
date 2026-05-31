@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-barn-red: #8b261d;
+  --color-barn-red-hover: #731e16;
+  --color-forest-green: #2c4c38;
+  --color-forest-green-hover: #1f3627;
+  --color-cream: #fefcf9;
+  --color-cream-dark: #f7f1e5;
+  --color-wood-brown: #3d2b1f;
+  --color-wood-brown-light: #5c4033;
+  --color-warm-gold: #c9923b;
+  --color-warm-gold-hover: #ab7a2e;
+
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+:root {
+  --background: #fefcf9;
+  --foreground: #3d2b1f;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom rustic patterns and utility classes */
+.rustic-wood-grain {
+  background-color: #f7f1e5;
+  background-image: radial-gradient(circle at 100% 150%, #fefcf9 24%, #f1e6cf 25%, #f1e6cf 28%, #fefcf9 29%, #fefcf9 36%, #e7d5b8 36%, #e7d5b8 40%, transparent 40%, transparent);
+  background-size: 20px 20px;
+}
+
+.wood-border {
+  border-color: #5c4033;
+  border-style: double;
+  border-width: 4px;
+}
+
+/* Custom scrollbars for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fefcf9;
+}
+::-webkit-scrollbar-thumb {
+  background: #5c4033;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d2b1f;
+}
